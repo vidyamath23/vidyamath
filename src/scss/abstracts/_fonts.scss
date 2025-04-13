@@ -1,0 +1,57 @@
+$font-path:'../fonts/';
+
+/* Define Roboto-Regular */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot'); /* IE9 compatibility */
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Roboto-Regular.woff2') format('woff2'), /* Modern browsers */
+         url('../fonts/Roboto-Regular.woff') format('woff'), /* Modern browsers */
+         url('../fonts/Roboto-Regular.ttf') format('truetype'), /* Legacy browsers */
+         url('../fonts/Roboto-Regular.svg#Roboto') format('svg'); /* Legacy iOS */
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+/* Define Roboto-Medium */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot'); /* IE9 compatibility */
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Roboto-Medium.woff2') format('woff2'), /* Modern browsers */
+         url('../fonts/Roboto-Medium.woff') format('woff'), /* Modern browsers */
+         url('../fonts/Roboto-Medium.ttf') format('truetype'), /* Legacy browsers */
+         url('../fonts/Roboto-Medium.svg#Roboto') format('svg'); /* Legacy iOS */
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+/* Define Roboto-Bold */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.eot'); /* IE9 compatibility */
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Roboto-Bold.woff2') format('woff2'), /* Modern browsers */
+         url('../fonts/Roboto-Bold.woff') format('woff'), /* Modern browsers */
+         url('../fonts/Roboto-Bold.ttf') format('truetype'), /* Legacy browsers */
+         url('../fonts/Roboto-Bold.svg#Roboto') format('svg'); /* Legacy iOS */
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+
+/* Create CSS classes */
+.roboto_regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.roboto_medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.roboto_bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vidyamath",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "build-css": "sass src/scss:public/css --no-source-map",
+    "watch-css": "sass --watch src/scss:public/css",
+    "dev": "npm-run-all --parallel watch-css start"
+  },
+  "author": "Umesh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.83.1"
+  }
+}

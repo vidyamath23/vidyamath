@@ -1,0 +1,149 @@
+
+/* padding */
+
+@mixin padding-tb($top-bottom, $left-right: 0) {
+    padding: $top-bottom $left-right;
+}
+
+/* font-sze */
+
+// Mixin for font sizes in pixels
+@mixin font-size-range() {
+  @for $i from 2 through 100 {
+    .f_#{$i} {
+      font-size: #{$i}px;
+    }
+  }
+}
+
+@include font-size-range();
+
+
+/* width px */
+
+@mixin width-range(){
+  @for $i from 2 through 100 {
+    .w_#{$i}{
+      width: #{$i}px;
+    }
+  }
+} 
+
+@include width-range();
+
+/* width % */
+
+@mixin width-range-per(){
+  @for $i from 2 through 100 {
+    .wp_#{$i}{
+      width: calc(#{$i} * 1%);
+    }
+  }
+} 
+
+@include width-range-per();
+
+/* height px */
+
+@mixin height-range(){
+  @for $i from 2 through 100 {
+    .h_#{$i}{
+      height: #{$i}px;
+    }
+  }
+} 
+
+@include height-range();
+
+/* height % */
+
+@mixin height-range-per(){
+  @for $i from 2 through 100 {
+    .hp_#{$i}{
+      height: calc(#{$i} * 1%);
+    }
+  }
+} 
+
+@include height-range-per();
+
+
+
+// Mixin for margin utilities with mobile support
+@mixin margin-utilities() {
+  @for $i from 2 through 100 {
+    // Default margin classes
+    .mr_#{$i} {
+      margin-right: #{$i}px;
+    }
+    .ml_#{$i} {
+      margin-left: #{$i}px;
+    }
+    .mt_#{$i} {
+      margin-top: #{$i}px;
+    }
+    .mb_#{$i} {
+      margin-bottom: #{$i}px;
+    }
+
+    // Mobile-specific margin classes
+    @media (max-width: 768px) {
+      .mr_#{$i}_m {
+        margin-right: #{$i}px;
+      }
+      .ml_#{$i}_m {
+        margin-left: #{$i}px;
+      }
+      .mt_#{$i}_m {
+        margin-top: #{$i}px;
+      }
+      .mb_#{$i}_m {
+        margin-bottom: #{$i}px;
+      }
+    }
+  }
+}
+
+// Example usage
+@include margin-utilities();
+
+// Mixin for padding utilities with mobile support
+@mixin padding-utilities() {
+  @for $i from 2 through 100 {
+    // Default padding classes
+    .pr_#{$i} {
+      padding-right: #{$i}px;
+    }
+    .pl_#{$i} {
+      padding-left: #{$i}px;
+    }
+    .pt_#{$i} {
+      padding-top: #{$i}px;
+    }
+    .pb_#{$i} {
+      padding-bottom: #{$i}px;
+    }
+
+    // Mobile-specific padding classes
+    @media (max-width: 768px) {
+      .pr_#{$i}_m {
+        padding-right: #{$i}px;
+      }
+      .pl_#{$i}_m {
+        padding-left: #{$i}px;
+      }
+      .pt_#{$i}_m {
+        padding-top: #{$i}px;
+      }
+      .pb_#{$i}_m {
+        padding-bottom: #{$i}px;
+      }
+    }
+  }
+}
+
+// Example usage
+@include padding-utilities();
+
+
+

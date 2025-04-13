@@ -1,0 +1,46 @@
+/* Base styles */
+  
+  .container {
+    width: 100%;
+    margin: auto;
+    max-width: 1320px;
+  }
+  
+  /* Media Queries */
+  
+  /* For screens up to 1400px */
+  @media (max-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
+  
+  /* For screens up to 1200px */
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* For screens up to 1024px */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px; 
+    }
+  }
+  
+  /* For mobile screens (up to 768px) */
+  @media (max-width: 768px) {
+    .container {
+      padding:0 16px;
+    }
+  }
+
+  /* cursore Pointer */
+  .cur_p{
+    cursor: pointer;
+}
+main{
+  min-height: 400px;
+}
+  
