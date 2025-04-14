@@ -7976,6 +7976,7 @@
    m_ : margin
    s_ :shadow
    t_ : text
+   p_ : position
 
 
 *************************/
@@ -8006,6 +8007,16 @@
 
 .f_as_s {
   align-self: stretch;
+}
+
+/* width */
+.w_240 {
+  width: 200px;
+}
+
+/* width */
+.h_140 {
+  height: 140px;
 }
 
 /* color */
@@ -8046,6 +8057,10 @@
   background: #eee;
 }
 
+.bc_c_black {
+  background: #000;
+}
+
 .bc_f9f {
   background: #f9f9f9;
 }
@@ -8060,6 +8075,10 @@
 
 .bc_ff8f49 {
   background: #ff8f49;
+}
+
+.bc_fbfbfb {
+  background: #fbfbfb;
 }
 
 .bc_h_eee:hover {
@@ -8093,6 +8112,10 @@
   border-radius: 12px;
 }
 
+.b_r40 {
+  border-radius: 40px;
+}
+
 .b_r16 {
   border-radius: 16px;
 }
@@ -8116,6 +8139,25 @@
 
 .t_cen {
   text-align: center;
+}
+
+/* Position */
+.p_rel {
+  position: relative;
+}
+
+.p_abs {
+  position: absolute;
+}
+
+.p_cen_cen {
+  left: 50%;
+  top: 50%;
+}
+
+.p_cen_top {
+  left: 50%;
+  top: 0;
 }
 
 @font-face {
@@ -8289,6 +8331,11 @@ a:hover {
 
 main {
   min-height: 400px;
+}
+
+.header .logo {
+  margin-left: -80px;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
