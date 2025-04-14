@@ -5,35 +5,37 @@
     <!-- First Section -->
     <div class="mb_90 pt_60 pb_60 bc_white">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333">Thousand of career oriented courses available here</h2>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- hero_section?.heading %></h2>
+            <% for (item of hero_section?.hero_cards) { %>
+                <li> <%= item.label %> </li>
+              <% } %>
         </div>
     </div>
     <!-- Second Section -->
     <div class="mb_90 pt_60 pb_60 bc_eee">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333">Microsoft Technologies Tutorials</h2>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- technologies_tutorials?.heading %></h2>
         </div>
     </div>
      <!-- Third Section -->
      <div class="mb_90 pt_60 pb_60 bc_white">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333">Microsoft Technologies Tutorials</h2>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- technologies_tutorials?.heading %></h2>
         </div>
     </div>
     <!-- Second Last Section -->
     <div class="mb_90 pt_60 pb_60 bc_eee">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333">Web & Graphic Design Tutorial</h2>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- design_tutorials?.heading %></h2>
         </div>
     </div>
     <!-- Last Section -->
     <div class="mb_90">
         <div class="container t_cen">
-            <h2 class="mb_12 f_36">The world's largest Hindi & English Course Platform</h2>
-            <p class="mb_30 f_18 c_646">Choose from over 80,000 online video courses with new additions published every
-                month</p>
+            <h2 class="mb_12 f_36"><%- bottom_info?.heading %></h2>
+            <p class="mb_30 f_18 c_646"><%- bottom_info?.para %></p>
             <div class="d_in_block">
-                <a href="#" class="d_flex f_ai_c b_r40 h_50 pl_30 pr_30 bc_primary c_white c_h_white">JOIN NOW</a>
+                <a href="<%- bottom_info?.cta_link %>" class="d_flex f_ai_c b_r40 h_50 pl_30 pr_30 bc_primary c_white c_h_white"><%- bottom_info?.cta %></a>
             </div>
         </div>
     </div>
