@@ -1,22 +1,26 @@
-<div class="home">
-  
-    
-     
+<div class="home"> 
     <!-- First Section -->
     <div class="mb_90 pt_60 pb_60 bc_white">
         <div class="container">
             <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- hero_section?.heading %></h2>
+            <div class="d_flex">
             <% for (item of hero_section?.hero_cards) { %>
                 <li> <%= item.label %>
-                    <%- include('../../components/plan-card/plan-card') %>
+                    <%- include('../../components/color-card/color-card') %>
                 </li>
               <% } %>
+            </div>
         </div>
     </div>
     <!-- Second Section -->
     <div class="mb_90 pt_60 pb_60 bc_eee">
         <div class="container">
             <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- technologies_tutorials?.heading %></h2>
+            <% for (item of hero_section?.hero_cards) { %>
+                <li> <%= item.label %>
+                    <%- include('../../components/plan-card/plan-card') %> 
+                </li>
+              <% } %>
         </div>
     </div>
      <!-- Third Section -->
@@ -41,9 +45,7 @@
             </div>
         </div>
     </div>
-    <div class="box2">
-      <%- include('../../components/color-card/color-card') %>
-    </div>
+     
     <div class="box3">
         <%- include('../../components/card1/card1') %>
     </div>
