@@ -3,7 +3,7 @@
     <div class="mb_90 pt_60 pb_60 bc_white">
         <div class="container">
             <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- hero_section?.heading %></h2>
-            <div class="d_flex">
+            <div class="d_flex f_jc_c f_g">
             <% for (item of hero_section?.hero_cards) { %>
                 <li> <%= item.label %>
                     <%- include('../../components/color-card/color-card') %>
@@ -33,6 +33,11 @@
     <div class="mb_90 pt_60 pb_60 bc_eee">
         <div class="container">
             <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- design_tutorials?.heading %></h2>
+            <% for (item of hero_section?.hero_cards) { %>
+                <li> <%= item.label %>
+                    <%-  include('../../components/card1/card1')  %> 
+                </li>
+              <% } %>
         </div>
     </div>
     <!-- Last Section -->
@@ -46,8 +51,6 @@
         </div>
     </div>
      
-    <div class="box3">
-        <%- include('../../components/card1/card1') %>
-    </div>
+   
    
 </div>

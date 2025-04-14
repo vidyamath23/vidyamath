@@ -8013,6 +8013,10 @@
   align-self: stretch;
 }
 
+.f_g {
+  gap: 40px;
+}
+
 /* width */
 .w_240 {
   width: 200px;
