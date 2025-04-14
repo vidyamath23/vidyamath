@@ -99,6 +99,11 @@
 .bc_ff8f49{
     background: var.$c_ff8f49;
 }
+.c_purple{
+    background: var.$c_purple;
+}
+
+
 
 .bc_h_eee{
     &:hover{
@@ -117,7 +122,9 @@
 
 .p_tb16 {
     @include m.padding-tb(.8rem); // Top/Bottom: 15px, Left/Right: 0
+
 }
+
 
 /* margin */
 .m_l_auto{
