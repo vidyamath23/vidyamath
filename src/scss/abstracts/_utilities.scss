@@ -87,6 +87,9 @@
 .c_black{
     color: var.$c_black;
 }
+.c_4caf50{
+    color: var.$c_4caf50;
+}
 
 .c_h_primary{
     &:hover{
@@ -96,6 +99,16 @@
 .c_h_white{
     &:hover{
         color: var.$c_white;
+    }
+}
+.c_h_black{
+    &:hover{
+        color: var.$c_black;
+    }
+}
+.c_h_purple{
+    &:hover{
+        color: var.$c_purple;
     }
 }
 
@@ -120,6 +133,16 @@
 .bc_ff8f49{
     background: var.$c_ff8f49;
 }
+.c_purple{
+    background: var.$c_purple;
+}
+.c_f3f3f3{
+    background: var.$c_f3f3f3;
+}
+.c_dddddd{
+    background: var.$c_dddddd;
+}
+
 .bc_fbfbfb{
     background: var.$c_fbfbfb;
 }
@@ -134,6 +157,16 @@
         background: var.$primary;
     }
 }
+.bc_h_d8c5f8{
+    &:hover{
+        background: var.$c_d8c5f8;
+    }
+}
+.c_h_0072c6{
+    &:hover{
+        background: var.$c_0072c6;
+    }
+}
 
 
 
@@ -141,11 +174,19 @@
 
 .p_tb16 {
     @include m.padding-tb(.8rem); // Top/Bottom: 15px, Left/Right: 0
+
 }
+.p_tb7{
+    padding: 7px 15px;
+}
+
 
 /* margin */
 .m_l_auto{
     margin-left: auto;
+}
+.m_b_22{
+    margin-bottom: 22px;
 }
 
 /* border */
@@ -165,6 +206,10 @@
 .b_r16{
     border-radius: 16px;
 }
+.b_r20{
+    border-radius: 20px;
+}
+
 .b_rt{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -185,6 +230,26 @@
 }
 .t_cen{
     text-align: center;
+}
+/* width */
+.w_130{
+    width: 130px;
+}
+.w_150{
+    width: 150px;
+}
+.w_200{
+    width: 200px;
+}
+/* height */
+.h_30{
+    height: 20vh;
+}
+.h_40{
+    height: 40vh;
+}
+.h_42{
+    height: 42vh;
 }
 
 /* Position */
