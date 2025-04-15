@@ -2,25 +2,37 @@
     <!-- First Section -->
     <div class="mb_90 pt_60 pb_60 bc_white">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- hero_section?.heading %></h2>
-            <div class="d_flex">
+            <h2 class="mb_40 f_36 t_cen roboto_regular c_333"><%- hero_section?.heading %></h2>
+            <div class="d_flex f_jc_c f_g30 f_ai_c mb_30">
+                <% for (item of hero_section?.hero_links) { %>
+                    <div class="">
+                        <%-include('../../components/card2/card2', {data:item})  %>
+                  </div>
+                <% } %>
+                
+           </div>
+            <div class="d_flex f_jc_c f_g40">
             <% for (item of hero_section?.hero_cards) { %>
-                <li> <%= item.label %>
-                    <%- include('../../components/color-card/color-card') %>
-                </li>
+                  <div class="wp_20">
+                    <%- include('../../components/color-card/color-card', {data:item}) %>
+                </div>
               <% } %>
             </div>
         </div>
     </div>
     <!-- Second Section -->
-    <div class="mb_90 pt_60 pb_60 bc_eee">
+    <div class="mb_90 pt_60 pb_60 bc_fbfbfb">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- technologies_tutorials?.heading %></h2>
-            <% for (item of hero_section?.hero_cards) { %>
-                <li> <%= item.label %>
-                    <%- include('../../components/plan-card/plan-card') %> 
-                </li>
-              <% } %>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- technologies_tutorials?.heading %></h2>
+            
+            <div class="d_flex f_jc_c f_g20">
+                <% for (item of technologies_tutorials?.cards) { %>
+                   <div class="wp_14">
+                        <%- include('../../components/plan-card/plan-card', {data:item}) %> 
+                    </div>
+                  <% } %>
+            </div>
+            
         </div>
     </div>
      <!-- Third Section -->
@@ -32,7 +44,14 @@
     <!-- Second Last Section -->
     <div class="mb_90 pt_60 pb_60 bc_eee">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- design_tutorials?.heading %></h2>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- design_tutorials?.heading %></h2>
+            <div class="d_flex f_jc_c f_g40">
+            <% for (item of design_tutorials?.cards) { %>
+                <div class="wp_20">
+                    <%-  include('../../components/card1/card1', {data:item})  %> 
+                </div>
+              <% } %>
+            </div>
         </div>
     </div>
     <!-- Last Section -->
@@ -46,8 +65,6 @@
         </div>
     </div>
      
-    <div class="box3">
-        <%- include('../../components/card1/card1') %>
-    </div>
+   
    
 </div>
