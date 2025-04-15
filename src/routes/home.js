@@ -21,7 +21,23 @@ const home = async (req, res)=>{
                 {
                     label: 'Graphic Designing',
                     duration: '3 Months Duration',
-                    icon:'',
+                    icon:'/images/graphic.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:''
+                },
+                {
+                    label: 'Web Designing',
+                    duration: '3 Months Duration',
+                    icon:'/images/web.png',
+                    bg_color:'#d201c6',
+                    bg_h_color:'#000',
+                    url:''
+                },
+                {
+                    label: 'Frontend Developer',
+                    duration: '3 Months Duration',
+                    icon:'/images/ui.png',
                     bg_color:'#4c18a1',
                     bg_h_color:'#000',
                     url:''
@@ -29,23 +45,7 @@ const home = async (req, res)=>{
                 {
                     label: 'Graphic Designing',
                     duration: '3 Months Duration',
-                    icon:'',
-                    bg_color:'#4c18a1',
-                    bg_h_color:'#000',
-                    url:''
-                },
-                {
-                    label: 'Graphic Designing',
-                    duration: '3 Months Duration',
-                    icon:'',
-                    bg_color:'#4c18a1',
-                    bg_h_color:'#000',
-                    url:''
-                },
-                {
-                    label: 'Graphic Designing',
-                    duration: '3 Months Duration',
-                    icon:'',
+                    icon:'/images/app.png',
                     bg_color:'#4c18a1',
                     bg_h_color:'#000',
                     url:''
@@ -58,21 +58,92 @@ const home = async (req, res)=>{
                 {
                     label: 'MS Excel',
                     duration: '1 Month',
-                    icon:'',
+                    icon:'/images/excel.png',
                     bg_color:'#4c18a1',
                     bg_h_color:'#000',
                     url:'',
                     cta:'View Course'
                 },
+                {
+                    label: 'MS Excel',
+                    duration: '1 Month',
+                    icon:'/images/word.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                },
+                {
+                    label: 'MS Excel',
+                    duration: '1 Month',
+                    icon:'/images/ppt.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                },
+                {
+                    label: 'MS Excel',
+                    duration: '1 Month',
+                    icon:'/images/outlook.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                },
+                {
+                    label: 'MS Excel',
+                    duration: '1 Month',
+                    icon:'/images/access.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                }, {
+                    label: 'MS Excel',
+                    duration: '1 Month',
+                    icon:'/images/publisher.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                }
             ]
         },
         design_tutorials:{
             heading:'Web & Graphic Design Tutorial',
             cards:[
                 {
-                    label: 'MS Excel',
+                    label: 'photoshop',
                     duration: '1 Month',
-                    icon:'',
+                    icon:'/images/ps.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                },
+                {
+                    label: 'illustrator',
+                    duration: '1 Month',
+                    icon:'/images/al.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                },
+                {
+                    label: 'Coreldraw',
+                    duration: '1 Month',
+                    icon:'/images/coral.png',
+                    bg_color:'#4c18a1',
+                    bg_h_color:'#000',
+                    url:'',
+                    cta:'View Course'
+                },
+                {
+                    label: 'photoshop',
+                    duration: '1 Month',
+                    icon:'/images/xd.png',
                     bg_color:'#4c18a1',
                     bg_h_color:'#000',
                     url:'',
