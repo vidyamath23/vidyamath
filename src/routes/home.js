@@ -8,12 +8,12 @@ const home = async (req, res)=>{
             hero_links: [
                 {
                     label: 'Library',
-                    icon:'',
+                    icon:'/images/book.png',
                     link:''
                 },
                 {
                     label: 'Video Tutorial',
-                    icon:'',
+                    icon:'/images/video.png',
                     link:''
                 }
             ],
