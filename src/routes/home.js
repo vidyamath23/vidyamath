@@ -65,7 +65,7 @@ const home = async (req, res)=>{
                     cta:'View Course'
                 },
                 {
-                    label: 'MS Excel',
+                    label: 'MS Word',
                     duration: '1 Month',
                     icon:'/images/word.png',
                     bg_color:'#4c18a1',
@@ -74,7 +74,7 @@ const home = async (req, res)=>{
                     cta:'View Course'
                 },
                 {
-                    label: 'MS Excel',
+                    label: 'PPT',
                     duration: '1 Month',
                     icon:'/images/ppt.png',
                     bg_color:'#4c18a1',
@@ -83,7 +83,7 @@ const home = async (req, res)=>{
                     cta:'View Course'
                 },
                 {
-                    label: 'MS Excel',
+                    label: 'Outlook',
                     duration: '1 Month',
                     icon:'/images/outlook.png',
                     bg_color:'#4c18a1',
@@ -92,7 +92,7 @@ const home = async (req, res)=>{
                     cta:'View Course'
                 },
                 {
-                    label: 'MS Excel',
+                    label: 'Acess',
                     duration: '1 Month',
                     icon:'/images/access.png',
                     bg_color:'#4c18a1',
@@ -100,7 +100,7 @@ const home = async (req, res)=>{
                     url:'',
                     cta:'View Course'
                 }, {
-                    label: 'MS Excel',
+                    label: 'publisher',
                     duration: '1 Month',
                     icon:'/images/publisher.png',
                     bg_color:'#4c18a1',
@@ -108,6 +108,7 @@ const home = async (req, res)=>{
                     url:'',
                     cta:'View Course'
                 }
+                
             ]
         },
         design_tutorials:{

@@ -1,6 +1,6 @@
 <div class="home"> 
     <!-- First Section -->
-    <div class="mb_90 pt_60 pb_60 bc_white">
+    <div class=" pt_60 pb_60 bc_white">
         <div class="container">
             <h2 class="mb_40 f_36 t_cen roboto_regular c_333"><%- hero_section?.heading %></h2>
             <div class="d_flex f_jc_c f_g30 f_ai_c mb_30">
@@ -21,7 +21,7 @@
         </div>
     </div>
     <!-- Second Section -->
-    <div class="mb_90 pt_60 pb_60 bc_fbfbfb">
+    <div class=" pt_60 pb_60 bc_fbfbfb">
         <div class="container">
             <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- technologies_tutorials?.heading %></h2>
             
@@ -36,13 +36,20 @@
         </div>
     </div>
      <!-- Third Section -->
-     <div class="mb_90 pt_60 pb_60 bc_white">
+     <div class=" pt_60 pb_60 bc_white">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333"><%- technologies_tutorials?.heading %></h2>
+            <h2 class="mb_50 f_36 t_cen roboto_regular c_333"><%- technologies_tutorials?.heading %></h2>
+            <div class="d_flex f_jc_c f_g20">
+                <% for (item of technologies_tutorials?.cards) { %>
+                   <div class="wp_14">
+                        <%- include('../../components/card3/card3') %> 
+                    </div>
+                  <% } %>
+            </div>
         </div>
     </div>
     <!-- Second Last Section -->
-    <div class="mb_90 pt_60 pb_60 bc_eee">
+    <div class="mb_90 pt_60 pb_60 bc_fbfbfb">
         <div class="container">
             <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- design_tutorials?.heading %></h2>
             <div class="d_flex f_jc_c f_g40">
