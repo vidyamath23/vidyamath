@@ -8163,7 +8163,9 @@
 .b_b1_c {
   border-bottom: 1px solid #eee;
 }
-
+.b_none{
+  border: none;
+}
 .b_r50 {
   border-radius: 50%;
 }
