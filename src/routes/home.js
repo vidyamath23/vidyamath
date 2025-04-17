@@ -107,9 +107,66 @@ const home = async (req, res)=>{
                     bg_h_color:'#000',
                     url:'',
                     cta:'View Course'
-                }
-                
-            ]
+                }   
+            ]           
+        },
+        it_tutorials:{
+           heading: 'IT Technology',
+           cards:[
+            {
+            label: 'HTML',
+            duration: '1 Month',
+            icon:'/images/publisher.png',
+            bg_color:'#4c18a1',
+            bg_h_color:'#000',
+            url:'',
+            cta:'View Course'
+           },
+           {
+            label: 'Html5',
+            duration: '1 Month',
+            icon:'/images/publisher.png',
+            bg_color:'#4c18a1',
+            bg_h_color:'#000',
+            url:'',
+            cta:'View Course'
+           },
+           {
+            label: 'publisher',
+            duration: '1 Month',
+            icon:'/images/publisher.png',
+            bg_color:'#4c18a1',
+            bg_h_color:'#000',
+            url:'',
+            cta:'View Course'
+           },
+           {
+            label: 'publisher',
+            duration: '1 Month',
+            icon:'/images/publisher.png',
+            bg_color:'#4c18a1',
+            bg_h_color:'#000',
+            url:'',
+            cta:'View Course'
+           },
+           {
+            label: 'publisher',
+            duration: '1 Month',
+            icon:'/images/publisher.png',
+            bg_color:'#4c18a1',
+            bg_h_color:'#000',
+            url:'',
+            cta:'View Course'
+           },{
+            label: 'publisher',
+            duration: '1 Month',
+            icon:'/images/publisher.png',
+            bg_color:'#4c18a1',
+            bg_h_color:'#000',
+            url:'',
+            cta:'View Course'
+           } 
+           ]
         },
         design_tutorials:{
             heading:'Web & Graphic Design Tutorial',

@@ -39,6 +39,9 @@
 .f_jc_c{
     justify-content:center;
 }
+.f_jc_e{
+    justify-content: flex-end;
+}
 .f_jc_s
 {
     justify-content: stretch;
@@ -158,6 +161,9 @@
 .bc_fbfbfb{
     background: var.$c_fbfbfb;
 }
+.bc_c_9b9{
+    background: var.$c_9b9;
+}
 
 .bc_h_eee{
     &:hover{
@@ -200,11 +206,26 @@
 .m_b_22{
     margin-bottom: 22px;
 }
+.m_b_10{
+    margin-bottom: 10px;
+}
 
 /* border */
 
 .b_b1_c{
     border-bottom: 1px solid var.$c_eee;
+}
+.b_n{
+    border: none;
+}
+.b_rig{
+    border-right: 2px solid var.$c_eee;
+}
+.b_r5{
+    border-radius: 5px;
+}
+.b_b{
+    border: 1px solid #333;
 }
 .b_r50{
     border-radius: 50%;
@@ -243,6 +264,9 @@
 .t_cen{
     text-align: center;
 }
+.t_rig{
+    text-align: right;
+}
 /* width */
 .w_130{
     width: 130px;
@@ -252,6 +276,9 @@
 }
 .w_200{
     width: 200px;
+}
+.w_100{
+    width: 100%;
 }
 /* height */
 .h_30vh{
