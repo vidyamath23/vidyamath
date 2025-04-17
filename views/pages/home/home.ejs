@@ -38,11 +38,11 @@
      <!-- Third Section -->
      <div class=" pt_60 pb_60 bc_white">
         <div class="container">
-            <h2 class="mb_50 f_36 t_cen roboto_regular c_333"><%- technologies_tutorials?.heading %></h2>
+            <h2 class="mb_50 f_36 t_cen roboto_regular c_333"><%- it_tutorials?.heading %></h2>
             <div class="d_flex f_jc_c f_g20">
-                <% for (item of technologies_tutorials?.cards) { %>
+                <% for (item of it_tutorials?.cards) { %>
                    <div class="wp_14">
-                        <%- include('../../components/card3/card3') %> 
+                        <%- include('../../components/card3/card3', {data:item}) %> 
                     </div>
                   <% } %>
             </div>
@@ -69,9 +69,9 @@
             <div class="d_in_block">
                 <a href="<%- bottom_info?.cta_link %>" class="d_flex f_ai_c b_r40 h_50 pl_30 pr_30 bc_primary c_white c_h_white"><%- bottom_info?.cta %></a>
             </div>
+            
         </div>
     </div>
-     
-   
+    
    
 </div>
