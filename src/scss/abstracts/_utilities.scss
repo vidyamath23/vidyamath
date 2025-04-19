@@ -50,8 +50,17 @@
 {
     align-self: stretch;
 }
+.f_d_c{
+    flex-direction: column;
+}
 .f_g5{
     gap: 5px;
+}
+.f_g10{
+    gap: 10px;
+}
+.f_g15{
+    gap: 15px;
 }
 .f_g20{
     gap: 20px;
@@ -62,6 +71,9 @@
 .f_g40{
     gap: 40px;
 }
+.f_g80{
+    gap: 80px;
+}
 
 /* width */
 
@@ -69,7 +81,7 @@
     width: 200px;
 }
 
-/* width */
+
 
 .h_140{
     height: 140px;
@@ -105,7 +117,9 @@
 .c_4caf50{
     color: var.$c_4caf50;
 }
-
+.c_gray{
+    color: var.$c_gray;
+}
 .c_h_primary{
     &:hover{
         color: var.$primary;
@@ -157,12 +171,26 @@
 .c_dddddd{
     background: var.$c_dddddd;
 }
-
+.c_e0e0e0{
+    background: var.$c_e0e0e0;
+}
 .bc_fbfbfb{
     background: var.$c_fbfbfb;
 }
 .bc_c_9b9{
     background: var.$c_9b9;
+}
+.bc_c_white{
+    background: var.$c_white;
+}
+.bc_c_aaa{
+    background: var.$c_aaa;
+}
+.bc_c_0072c6{
+    background: var.$c_0072c6;
+}
+.bc_c_1DA1F2{
+    background: var.$c_1DA1F2;
 }
 
 .bc_h_eee{
@@ -197,6 +225,21 @@
 .p_tb7{
     padding: 7px 15px;
 }
+.p_tb6{
+    padding: 6px 12px;
+}
+.p_tb40{
+    padding: 40px;
+}
+.p_tb24{
+    padding: 12px 30px;
+}
+.p_12{
+    padding: 12px;
+}
+.p_lf{
+    padding: 0 30px;
+}
 
 
 /* margin */
@@ -209,6 +252,9 @@
 .m_b_10{
     margin-bottom: 10px;
 }
+.mb_30{
+    margin-bottom: 30px;
+}
 
 /* border */
 
@@ -219,13 +265,13 @@
     border: none;
 }
 .b_rig{
-    border-right: 2px solid var.$c_eee;
+    border-right: 1px solid var.$c_eee;
 }
-.b_r5{
-    border-radius: 5px;
+.b_r6{
+    border-radius: 6px;
 }
 .b_b{
-    border: 1px solid #333;
+    border: 1px solid #ccc;
 }
 .b_r50{
     border-radius: 50%;
@@ -242,7 +288,14 @@
 .b_r20{
     border-radius: 20px;
 }
-
+.b_r30{
+    border-radius: 30px;
+}
+.b_h_333{
+    &:hover{
+        border: 1px solid var.$c_333;
+    }
+}
 .b_rt{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -280,6 +333,21 @@
 .w_100{
     width: 100%;
 }
+.w_500{
+    width: 350px;
+}
+.w_50{
+    width: 50%;
+}
+.m_w_900{
+    max-width: 900px;
+}
+.w_1{
+    width: 1px;
+}
+.t_t{
+    transform: translate(-50%, -50%);
+}
 /* height */
 .h_30vh{
     height: 20vh;
@@ -290,7 +358,15 @@
 .h_42vh{
     height: 42vh;
 }
-
+.h_90vh{
+    height: 90vh;
+}
+.h_100vh{
+    height: 100vh;
+}
+.h_300{
+    height: 300px;
+}
 /* Position */
 .p_rel{
     position: relative;
