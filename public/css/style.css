@@ -8144,6 +8144,10 @@
   background: #dddddd;
 }
 
+.c_e0e0e0 {
+  background: #e0e0e0;
+}
+
 .bc_fbfbfb {
   background: #fbfbfb;
 }
@@ -8333,6 +8337,14 @@
   max-width: 900px;
 }
 
+.w_1 {
+  width: 1px;
+}
+
+.t_t {
+  transform: translate(-50%, -50%);
+}
+
 /* height */
 .h_30vh {
   height: 20vh;
@@ -8352,6 +8364,10 @@
 
 .h_100vh {
   height: 100vh;
+}
+
+.h_300 {
+  height: 300px;
 }
 
 /* Position */
