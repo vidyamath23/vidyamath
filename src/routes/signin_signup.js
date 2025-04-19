@@ -2,7 +2,7 @@ const {renderPage} = require('../helpers/common');
 
 const signin_signup = async (req, res)=>{
     const pageConfig = {
-        title: 'About Page dfdsf', 
+        title: 'Signin_signup dfdsf', 
     };
 
     const template = 'pages/signin_signup/signin_signup';
