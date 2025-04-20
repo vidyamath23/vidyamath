@@ -296,6 +296,11 @@
         border: 1px solid var.$c_333;
     }
 }
+.b_h_n{
+    &:hover{
+        border: none;
+    }
+}
 .b_rt{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -319,6 +324,11 @@
 }
 .t_rig{
     text-align: right;
+}
+.t_d{
+    &:hover{
+        text-decoration: underline;
+    }
 }
 /* width */
 .w_130{
@@ -345,8 +355,12 @@
 .w_1{
     width: 1px;
 }
+/*transform*/
 .t_t{
     transform: translate(-50%, -50%);
+}
+.t_tran_y{
+    transform: translateY(-50%);
 }
 /* height */
 .h_30vh{
@@ -381,4 +395,8 @@
 .p_cen_top{
     left: 50%;
     top: 0;
+}
+.p_top_rig{
+    top: 50%;
+    right: 15px;
 }
