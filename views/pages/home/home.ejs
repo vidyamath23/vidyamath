@@ -2,9 +2,9 @@
     <!-- First Section -->
     <div class=" pt_60 pb_60 bc_white">
         <div class="container">
-            <h2 class="mb_40 f_36 t_cen roboto_regular c_333"><%- hero_section?.heading %></h2>
+            <h2 class="mb_40 f_36 t_cen roboto_regular c_333"><%- pageData?.hero_section?.heading %></h2>
             <div class="d_flex f_jc_c f_g30 f_ai_c mb_30">
-                <% for (item of hero_section?.hero_links) { %>
+                <% for (item of pageData?.hero_section?.hero_links) { %>
                     <div class="">
                         <%-include('../../components/card2/card2', {data:item})  %>
                   </div>
@@ -12,7 +12,7 @@
                 
            </div>
             <div class="d_flex f_jc_c f_g40">
-            <% for (item of hero_section?.hero_cards) { %>
+            <% for (item of pageData?.hero_section?.hero_cards) { %>
                   <div class="wp_20">
                     <%- include('../../components/color-card/color-card', {data:item}) %>
                 </div>
@@ -23,10 +23,10 @@
     <!-- Second Section -->
     <div class=" pt_60 pb_60 bc_fbfbfb">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- technologies_tutorials?.heading %></h2>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- pageData?.technologies_tutorials?.heading %></h2>
             
             <div class="d_flex f_jc_c f_g20">
-                <% for (item of technologies_tutorials?.cards) { %>
+                <% for (item of pageData?.technologies_tutorials?.cards) { %>
                    <div class="wp_14">
                         <%- include('../../components/plan-card/plan-card', {data:item}) %> 
                     </div>
@@ -38,9 +38,9 @@
      <!-- Third Section -->
      <div class=" pt_60 pb_60 bc_white">
         <div class="container">
-            <h2 class="mb_50 f_36 t_cen roboto_regular c_333"><%- it_tutorials?.heading %></h2>
+            <h2 class="mb_50 f_36 t_cen roboto_regular c_333"><%- pageData?.it_tutorials?.heading %></h2>
             <div class="d_flex f_jc_c f_g20">
-                <% for (item of it_tutorials?.cards) { %>
+                <% for (item of pageData?.it_tutorials?.cards) { %>
                    <div class="wp_14">
                         <%- include('../../components/card3/card3', {data:item}) %> 
                     </div>
@@ -51,9 +51,9 @@
     <!-- Second Last Section -->
     <div class="mb_90 pt_60 pb_60 bc_fbfbfb">
         <div class="container">
-            <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- design_tutorials?.heading %></h2>
+            <h2 class="mb_12 f_36 t_cen roboto_regular c_333 mb_50"><%- pageData?.design_tutorials?.heading %></h2>
             <div class="d_flex f_jc_c f_g40">
-            <% for (item of design_tutorials?.cards) { %>
+            <% for (item of pageData?.design_tutorials?.cards) { %>
                 <div class="wp_20">
                     <%-  include('../../components/card1/card1', {data:item})  %> 
                 </div>
@@ -64,10 +64,10 @@
     <!-- Last Section -->
     <div class="mb_90">
         <div class="container t_cen">
-            <h2 class="mb_12 f_36"><%- bottom_info?.heading %></h2>
-            <p class="mb_30 f_18 c_646"><%- bottom_info?.para %></p>
+            <h2 class="mb_12 f_36"><%- pageData?.bottom_info?.heading %></h2>
+            <p class="mb_30 f_18 c_646"><%- pageData?.bottom_info?.para %></p>
             <div class="d_in_block">
-                <a href="<%- bottom_info?.cta_link %>" class="d_flex f_ai_c b_r40 h_50 pl_30 pr_30 bc_primary c_white c_h_white"><%- bottom_info?.cta %></a>
+                <a href="<%- pageData?.bottom_info?.cta_link %>" class="d_flex f_ai_c b_r40 h_50 pl_30 pr_30 bc_primary c_white c_h_white"><%- pageData?.bottom_info?.cta %></a>
             </div>
             
         </div>
