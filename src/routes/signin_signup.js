@@ -1,13 +1,8 @@
-const {renderPage} = require('../helpers/common');
 
-const signin_signup = async (req, res)=>{
-    const pageConfig = {
-        title: 'Signin_signup dfdsf', 
-    };
 
-    const template = 'pages/signin_signup/signin_signup';
 
-   renderPage({req, res, template, pageConfig}); 
-};
-
-module.exports = signin_signup;
+const signin_signup = {
+    title: 'Home',
+  };
+  module.exports = signin_signup;
+  

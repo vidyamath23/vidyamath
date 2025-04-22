@@ -1,7 +1,4 @@
-const {renderPage} = require('./../helpers/common');
-
-const home = async (req, res)=>{
-    const pageConfig = {
+const home = {
         title: 'vidyamath.com',
         hero_section:{
             heading:'Thousand of career oriented courses available here',
@@ -215,11 +212,9 @@ const home = async (req, res)=>{
             cta:'Join Now',
             cta_link:'#',
         }
-    };
+    
 
-    const template = 'pages/home/home';
-
-   renderPage({req, res, template, pageConfig}); 
+    
 };
 
 module.exports = home;
