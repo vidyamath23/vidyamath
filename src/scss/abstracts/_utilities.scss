@@ -30,9 +30,7 @@
 .d_flex{
     display: flex;
 }
-.f_1{
-    flex: 1;
-}
+
 .f_ai_c{
     align-items: center;
 }
@@ -56,6 +54,15 @@
 .f_d_c{
     flex-direction: column;
 }
+.f_d_r{
+    flex-direction: row;
+}
+.fl_1{
+    flex: 1;
+}
+.fl_2{
+    flex: 2;
+}
 .f_l{
    float: left;
 }
@@ -76,6 +83,9 @@
 }
 .f_g40{
     gap: 40px;
+}
+.f_g50{
+    gap: 50px;
 }
 .f_g80{
     gap: 80px;
@@ -267,9 +277,13 @@
 
 
 /* margin */
-.m_auto{
-    margin: 50px auto;
+.mb_15{
+    margin-bottom: 15px;
 }
+.m_b_10{
+    margin-bottom: 10px;
+}
+
 .m_l_auto{
     margin-left: auto;
 }
@@ -279,12 +293,11 @@
 .m_b_22{
     margin-bottom: 22px;
 }
-.m_b_10{
-    margin-bottom: 10px;
+
+.m_auto{
+    margin: 50px auto;
 }
-.mb_15{
-    margin-bottom: 15px;
-}
+
 .mb_30{
     margin-bottom: 30px;
 }
@@ -316,6 +329,9 @@
 }
 .b_rig{
     border-right: 1px solid var.$c_eee;
+}
+.b-top{
+    border-top: 1px solid #ccc;
 }
 .b_r6{
     border-radius: 6px;
@@ -449,6 +465,9 @@
     transform: translateY(-50%);
 }
 /* height */
+.h_20{
+    height: 20px;
+}
 .h_30vh{
     height: 20vh;
 }
@@ -485,4 +504,12 @@
 .p_top_rig{
     top: 50%;
     right: 15px;
+}
+.divider{
+    &:hover{
+        width: 1px;
+        height: 20px;
+        background: #eee;
+        margin-right: 10px;
+    }
 }
