@@ -8017,6 +8017,10 @@
   justify-content: flex-end;
 }
 
+.f_jc_st {
+  justify-content: flex-start;
+}
+
 .f_jc_s {
   justify-content: stretch;
 }
@@ -8147,6 +8151,10 @@
   background: transparent;
 }
 
+.bc_4C4C4C {
+  background: #4C4C4C;
+}
+
 .bc_4FD1C5 {
   background: #4FD1C5;
 }
@@ -8185,6 +8193,10 @@
 
 .c_dddddd {
   background: #dddddd;
+}
+
+.bc_f8f8f8 {
+  background: #f8f8f8;
 }
 
 .c_e0e0e0 {
@@ -8260,6 +8272,10 @@
   padding: 5px 15px;
 }
 
+.p_tb26 {
+  padding: 6px 24px;
+}
+
 .p_tb40 {
   padding: 40px;
 }
@@ -8298,6 +8314,10 @@
 
 .p_30 {
   padding: 30px;
+}
+
+.p_tb_5 {
+  padding: 5px 10px;
 }
 
 /* margin */
@@ -8395,6 +8415,10 @@
   border-bottom: 2px solid #ccc;
 }
 
+.b_b_434343 {
+  border: 4px solid #434343;
+}
+
 .b_r6 {
   border-radius: 6px;
 }
@@ -8409,6 +8433,10 @@
 
 .b_r12 {
   border-radius: 12px;
+}
+
+.b_r15 {
+  border-radius: 15px;
 }
 
 .b_r16 {
@@ -8487,7 +8515,7 @@
 }
 
 .s_box_onl {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* text */
@@ -8752,6 +8780,58 @@
 
 .card1 > .main_card:last-child {
   background: #34cbe6;
+}
+
+.s_box_in {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.m_10_auto {
+  margin: 0 auto 10px;
+}
+
+.bc_f1f1f1 {
+  background: #f1f1f1;
+}
+
+.w_170 {
+  width: 170px;
+}
+
+.h_250 {
+  height: 250px;
+}
+
+.third > .css_card:last-child img {
+  transform: rotate(46deg);
+}
+
+.w_274 {
+  width: 274px;
+}
+
+.h_118 {
+  height: 118px;
+}
+
+.color_card > .linear_color:first-child {
+  background: linear-gradient(to left, rgba(66, 165, 245, 0.6), rgb(66, 165, 245));
+}
+
+.color_card > .linear_color:nth-child(2) {
+  background: linear-gradient(to left, rgba(186, 104, 200, 0.6), rgb(186, 104, 200));
+}
+
+.color_card > .linear_color:nth-child(3) {
+  background: linear-gradient(to left, rgb(247, 183, 51), rgba(252, 74, 26, 0.8));
+}
+
+.color_card > .linear_color:last-child {
+  background: linear-gradient(to left, rgba(102, 187, 106, 0.6), rgb(102, 187, 106));
+}
+
+.b_bl_2 {
+  border: 2px solid black;
 }
 
 @font-face {

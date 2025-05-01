@@ -1,23 +1,78 @@
 <div class="home">
-    <!---first section-->
-    <div class="bc_white">
-        <div class="container">
-            <h2 class="f_36 mb_40 t_cen c_333 "><%- pageData?.hero_banner?.heading %></h2>
-            <div class="d_flex f_jc_c f_g30 f_ai_c mb_60">
-                <% for (item of pageData?.hero_banner?.hero_links) { %>
-                    <div class="">
-                        <%-include('../../components/card2/card2', {data:item})  %>
-                  </div>
-                <% } %>  
-           </div>
-           <div class="card1 d_flex f_jc_c f_g40">
-            <% for (item of pageData?.hero_banner?.top_cards) { %>
-                  <div class="main_card wp_20 b_r16">
-                    <%- include('../../components/home2card/home2card', {data:item}) %>
-                </div>
-              <% } %>
-            </div>
+  <!---first section-->
+  <div class="bc_white">
+    <div class="container">
+      <h2 class="f_38 mb_40 t_cen c_333">
+        <%- pageData?.hero_banner?.heading %>
+      </h2>
+      <div class="d_flex f_jc_c f_g30 f_ai_c mb_60">
+        <% for (item of pageData?.hero_banner?.hero_links) { %>
+        <div class="card2">
+          <%-include('../../components/card2/card2', {data:item}) %>
         </div>
+        <% } %>
+      </div>
+      <div class="card1 d_flex f_jc_c f_g40">
+        <% for (item of pageData?.hero_banner?.top_cards) { %>
+        <div class="main_card wp_20 b_r16 s_box_onl mb_90">
+          <%- include('../../components/home2card/home2card', {data:item}) %>
+        </div>
+        <% } %>
+      </div>
     </div>
-    
+  </div>
+  <!----Second Section-->
+  <div class="bc_f8f8f8 pt_30 mb_90">
+    <div class="container">
+      <h2 class="f_40 mb_40 t_cen c_333 mt_20">
+        <%- pageData?.snippet_banner?.heading %>
+      </h2>
+      <div class="d_flex f_jc_c f_g20">
+        <% for (item of pageData?.snippet_banner?.snippet_card) { %>
+        <div class="b_r16 mb_90">
+          <%- include('../../components/home2card1/home2card1', {data:item}) %>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+  <!---Third Section-->
+  <div class="bc_white">
+    <div class="container">
+      <h2 class="f_40 mb_50 t_cen c_333 mt_20">
+        <%- pageData?.css_banner?.heading %>
+      </h2>
+      <div class="third d_flex f_jc_c f_g20">
+        <% for (item of pageData?.css_banner?.css_card) { %>
+        <div class="css_card b_r16 mb_90">
+          <%- include('../../components/home2card2/home2card2', {data:item}) %>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+  <!---second-last-section-->
+  <div class="bc_f8f8f8 pt_30 mb_90">
+    <div class="container">
+      <h2 class="f_40 mb_40 t_cen c_333 mt_20">
+        <%- pageData?.coming_soon?.heading %>
+      </h2>
+      <div class="color_card d_flex f_jc_c f_g20">
+        <% for (item of pageData?.coming_soon?.linear_card) { %>
+        <div class="linear_color mb_90 b_r12 s_box_onl">
+          <%- include('../../components/home2card3/home2card3', {data:item}) %>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+  <!-- Last Section -->
+  <div class="mb_90">
+    <div class="container t_cen">
+      <h2 class="mb_12 f_36"><%- pageData?.bottom_section?.heading %></h2>
+      <p class="mb_40 f_18 c_646"><%- pageData?.bottom_section?.paragraph %></p>
+      <div class="d_in_block">
+        <a href="<%- pageData?.bottom_section?.cta_link %>" class="mb_30 f_18 c_646 bac_tra c_black b_bl_2 cur_p b_r30 p_tb26 t_upper"><%- pageData?.bottom_section?.cta  %></a>
+      </div>
+  </div>
 </div>
