@@ -47,32 +47,32 @@ const home ={
         snippet_card:[
             {
                 label: 'Button Snippets',
-                icon:'',
+                icon:'/images/drop.png',
                 url:''
             },
             {
                 label: 'Drop Shadow',
-                icon:'/images/drop.png/',
+                icon:'/images/drop.png',
                 url:''
             },
             {
                 label: 'Layer Blur Shadow',
-                icon:'',
+                icon:'/images/3rd.png',
                 url:''
             },
             {
                 label: 'Layout Component',
-                icon:'',
+                icon:'/images/shape.png',
                 url:''
             },
             {
                 label: 'Design Element ',
-                icon:'',
+                icon:'/images/design.png',
                 url:''
             },
             {
                 label: 'Effect',
-                icon:'',
+                icon:'/images/design.png',
                 url:''
             }
         ]
