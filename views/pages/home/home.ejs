@@ -2,7 +2,7 @@
   <!---first section-->
   <div class="bc_white">
     <div class="container">
-      <h2 class="f_38 mb_40 t_cen c_333">
+      <h2 class="f_38 m_f_26  mb_40 t_cen c_333">
         <%- pageData?.hero_banner?.heading %>
       </h2>
       <div class="d_flex f_jc_c f_g30 f_ai_c mb_60">
@@ -12,10 +12,12 @@
         </div>
         <% } %>
       </div>
-      <div class="card1 d_flex f_jc_c f_g40">
+      <div class="card1 d_flex f_jc_c f_g40 m_f_g0 m_f_xscroll m_f_jc_st m_m16">
         <% for (item of pageData?.hero_banner?.top_cards) { %>
-        <div class="main_card wp_20 b_r16 s_box_onl mb_90">
+          <div class="m_fw90">
+        <div class="main_card wp_100 b_r16 s_box_onl mb_90">
           <%- include('../../components/home2card/home2card', {data:item}) %>
+        </div>
         </div>
         <% } %>
       </div>
@@ -24,10 +26,10 @@
   <!----Second Section-->
   <div class="bc_f8f8f8 pt_30 mb_90">
     <div class="container">
-      <h2 class="f_40 mb_40 t_cen c_333 mt_20">
+      <h2 class="f_40 m_f_24 mb_40 t_cen c_333 mt_20">
         <%- pageData?.snippet_banner?.heading %>
       </h2>
-      <div class="d_flex f_jc_c f_g20">
+      <div class="d_flex f_jc_c m_f_xscroll m_f_jc_st f_g20">
         <% for (item of pageData?.snippet_banner?.snippet_card) { %>
         <div class="b_r16 mb_90">
           <%- include('../../components/home2card1/home2card1', {data:item}) %>
@@ -39,10 +41,10 @@
   <!---Third Section-->
   <div class="bc_white">
     <div class="container">
-      <h2 class="f_40 mb_50 t_cen c_333 mt_20">
+      <h2 class="f_40 m_f_24 mb_50 t_cen c_333 mt_20">
         <%- pageData?.css_banner?.heading %>
       </h2>
-      <div class="third d_flex f_jc_c f_g20">
+      <div class="third d_flex f_jc_c m_f_xscroll m_f_jc_st f_g20">
         <% for (item of pageData?.css_banner?.css_card) { %>
         <div class="css_card b_r16 mb_90">
           <%- include('../../components/home2card2/home2card2', {data:item}) %>
@@ -54,10 +56,10 @@
   <!---second-last-section-->
   <div class="bc_f8f8f8 pt_30 mb_90">
     <div class="container">
-      <h2 class="f_40 mb_40 t_cen c_333 mt_20">
+      <h2 class="f_40 m_f_24 mb_40 t_cen c_333 mt_20">
         <%- pageData?.coming_soon?.heading %>
       </h2>
-      <div class="color_card d_flex f_jc_c f_g20">
+      <div class="color_card d_flex f_jc_c m_f_xscroll m_f_jc_st f_g20">
         <% for (item of pageData?.coming_soon?.linear_card) { %>
         <div class="linear_color mb_90 b_r12 s_box_onl">
           <%- include('../../components/home2card3/home2card3', {data:item}) %>

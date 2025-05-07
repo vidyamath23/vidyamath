@@ -706,19 +706,19 @@
 .h_254{
     height: 254px;
 }
-.card1> .main_card:first-child{
+.card1> div>.main_card:first-child{
     background: var.$c_4FD1C5;
     
 }
-.card1> .main_card:nth-child(2){
+.card1> div>.main_card:nth-child(2){
     background: var.$c_ffd54f;
     
 }
-.card1> .main_card:nth-child(3){
+.card1> div>.main_card:nth-child(3){
     background: var.$c_fa7c42;
     
 }
-.card1> .main_card:last-child{
+.card1> div>.main_card:last-child{
     background: var.$c_34cbe6;
     
 }
@@ -797,4 +797,33 @@
      background: #FFFFFF99;
 
 }
+
+// Mobile CSS
+
+@media only screen and (max-width: 900px) {
+    .m_f_xscroll {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .m_fw90{
+        flex: 0 0 90%;
+        padding: 0 10px;
+    }
+    .m_f_jc_st{
+        justify-content: flex-start;
+    }
+    .m_m16{
+        margin: 0 -16px;
+    }
+    .m_f_g0{
+        gap: 0px;
+    }
+    .m_w_100 {
+        width: 100%;
+    }
+}
+
+
   
