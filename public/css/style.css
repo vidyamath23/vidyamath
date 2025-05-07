@@ -8025,6 +8025,10 @@
   justify-content: stretch;
 }
 
+.f_w {
+  flex-wrap: wrap;
+}
+
 .f_as_s {
   align-self: stretch;
 }
@@ -8157,6 +8161,10 @@
 /* background color */
 .bac_tra {
   background: transparent;
+}
+
+.bc_4f46e5 {
+  background: #4f46e5;
 }
 
 .bc_4C4C4C {
@@ -8336,6 +8344,10 @@
   padding: 5px 10px;
 }
 
+.p_lf12 {
+  padding: 12px 24px;
+}
+
 /* margin */
 .m_0 {
   margin: 0;
@@ -8398,6 +8410,10 @@
 }
 
 /* border */
+.b_22 {
+  border: 2px solid #000;
+}
+
 .b_b1_c {
   border-bottom: 1px solid #eee;
 }
@@ -8560,6 +8576,10 @@
 }
 .t_tra_bc:hover {
   background: #dddddd;
+}
+
+.t_s {
+  transition: all 0.3s ease;
 }
 
 .t_d:hover {

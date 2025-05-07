@@ -55,6 +55,9 @@
 {
     justify-content: stretch;
 }
+.f_w{
+    flex-wrap: wrap;
+}
 .f_as_s
 {
     align-self: stretch;
@@ -180,6 +183,9 @@
 /* background color */
 .bac_tra{
     background: transparent;
+}
+.bc_4f46e5{
+    background: var.$c_4f46e5;
 }
 .bc_4C4C4C{
     background: var.$c_4C4C4C;
@@ -329,7 +335,9 @@
 .p_tb_5{
     padding: 5px 10px;
 }
-
+.p_lf12{
+    padding: 12px 24px;
+}
 
 /* margin */
 .m_0{
@@ -381,7 +389,9 @@
     margin: 0 15px 10px;
 }
 /* border */
-
+.b_22{
+    border: 2px solid var.$c_black;
+}
 .b_b1_c{
     border-bottom: 1px solid var.$c_eee;
 }
@@ -516,7 +526,9 @@
         background: var.$c_dddddd;
     }
 }
-
+.t_s{
+    transition: all 0.3s ease;
+}
 .t_d{
     &:hover{
         text-decoration: underline;

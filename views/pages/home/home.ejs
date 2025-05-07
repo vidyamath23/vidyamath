@@ -2,7 +2,7 @@
   <!---first section-->
   <div class="bc_white">
     <div class="container">
-      <h2 class="f_38 mb_40 t_cen c_333">
+      <h2 class="f_36 mb_40 t_cen c_333">
         <%- pageData?.hero_banner?.heading %>
       </h2>
       <div class="d_flex f_jc_c f_g30 f_ai_c mb_60">
@@ -14,7 +14,7 @@
       </div>
       <div class="card1 d_flex f_jc_c f_g40">
         <% for (item of pageData?.hero_banner?.top_cards) { %>
-        <div class="main_card wp_20 b_r16 s_box_onl mb_90">
+        <div class="main_card wp_20 b_r16 s_box_onl mb_90 tra_r tran">
           <%- include('../../components/home2card/home2card', {data:item}) %>
         </div>
         <% } %>
@@ -24,7 +24,7 @@
   <!----Second Section-->
   <div class="bc_f8f8f8 pt_30 mb_90">
     <div class="container">
-      <h2 class="f_40 mb_40 t_cen c_333 mt_20">
+      <h2 class="f_36 mb_40 t_cen c_333 mt_20">
         <%- pageData?.snippet_banner?.heading %>
       </h2>
       <div class="d_flex f_jc_c f_g20">
@@ -39,7 +39,7 @@
   <!---Third Section-->
   <div class="bc_white">
     <div class="container">
-      <h2 class="f_40 mb_50 t_cen c_333 mt_20">
+      <h2 class="f_36 mb_50 t_cen c_333 mt_20">
         <%- pageData?.css_banner?.heading %>
       </h2>
       <div class="third d_flex f_jc_c f_g20">
@@ -54,7 +54,7 @@
   <!---second-last-section-->
   <div class="bc_f8f8f8 pt_30 mb_90">
     <div class="container">
-      <h2 class="f_40 mb_40 t_cen c_333 mt_20">
+      <h2 class="f_36 mb_40 t_cen c_333 mt_20">
         <%- pageData?.coming_soon?.heading %>
       </h2>
       <div class="color_card d_flex f_jc_c f_g20">
@@ -70,7 +70,7 @@
   <div class="mb_90">
     <div class="container t_cen">
       <h2 class="mb_12 f_36"><%- pageData?.bottom_section?.heading %></h2>
-      <p class="mb_40 f_18 c_646"><%- pageData?.bottom_section?.paragraph %></p>
+      <p class="mb_36 f_18 c_646"><%- pageData?.bottom_section?.paragraph %></p>
       <div class="d_in_block">
         <a href="<%- pageData?.bottom_section?.cta_link %>" class="mb_30 f_18 c_646 bac_tra c_black b_bl_2 cur_p b_r30 p_tb26 t_upper"><%- pageData?.bottom_section?.cta  %></a>
       </div>
