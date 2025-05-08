@@ -20,25 +20,29 @@ const home ={
                 label: 'Button Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/buttonsnippet.png',
-                    url:'/button'
+                    url:'/button',
+                    className:'bc_4FD1C5'
             },
             {
                 label: 'Box-shadow Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/boxsnippet.png',
-                    url:'/shadow'
+                    url:'/shadow',
+                    className:'c_ffd54f'
             },
             {
                 label: 'Forms Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/formsnippet.png',
-                    url:'/forms_snippets'
+                    url:'/forms_snippets',
+                    className:'c_fa7c42'
             },
             {
                 label: 'Hamburger Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/hamburgersnippet.png',
-                    url:'/hamburger'
+                    url:'/hamburger',
+                    className:'c_34cbe6'
             }
         ]
     },
@@ -116,22 +120,22 @@ const home ={
         heading: 'Coming Soon',
         linear_card:[
             {
-                label: 'Table <br> Snippets',
+                label: 'Table Snippets',
                 icon:'/images/table.png',
                 url:''
             },
             {
-                label: 'List <br> Snippets',
+                label: 'List Snippets',
                 icon:'/images/list.png',
                 url:''
             },
             {
-                label: 'Video <br> Snippets',
+                label: 'Video Snippets',
                 icon:'/images/videosnippet.png',
                 url:''
             },
             {
-                label: 'Paragraph <br> Snippets',
+                label: 'Paragraph Snippets',
                 icon:'/images/paragraph.png',
                 url:''
             },
