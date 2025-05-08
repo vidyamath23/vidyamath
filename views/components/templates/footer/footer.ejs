@@ -1,33 +1,38 @@
 <div class="bc_f4f pt_30 pb_30">
-    <div class="container">
-        <div class="d_flex f_ai_c f_jc_sb">
-            <div>
-                <img src="/images/logo.png" />
-            </div>
-            <div>
-                <ul class="d_flex f_jc_c mb_10 f_14">
-                    <li class="pl_10 pr_10">
-                        <a href="#">BROWSE CLASSES</a>
-                    </li>
-                    <li class="pl_10 pr_10"><a href="#">ALL-ACCESS</a></li>
-                    <li class="pl_10 pr_10"><a href="#">HELP CENTER</a></li>
-                    <li class="pl_10 pr_10"><a href="#">CONTACT US</a></li>
-                    <li class="pl_10 pr_10"><a href="#">PRIVACY</a> 
-                    <li class="pl_10 pr_10"><a href="#">TERMS</a></li>
-                    <li class="pl_10 pr_10"><a href="#">CAREERS</a></li> 
-                </ul>
-                <div class="t_cen f_12">
-                    Copyright © 2018 Vidyamath
-                </div>
-            </div>
-            <div class="d_flex">
-                <div class="search d_flex f_ai_c f_jc_c mr_10 w_34 h_34 b_r50 cur_p bc_c_black bc_h_primary c_white">
-                    <i class="icon-facebook f_16"></i>
-                </div>
-                <div class="login_register d_flex f_ai_c f_jc_c w_34 h_34 b_r50 cur_p bc_c_black bc_h_primary c_white">
-                    <i class="icon-linkedin f_16"></i>
-                </div>
-            </div>
+  <div class="container">
+    <div class="d_flex f_ai_c f_jc_sb m_f_d_c">
+      <div class="m_f_o3">
+        <img src="/images/logo.png" />
+      </div>
+      <div class="m_f_o2">
+        <ul class="d_flex f_jc_c mb_10 f_14 m_f_wr_w">
+          <li class="pl_10 pr_10">
+            <a href="#">BROWSE CLASSES</a>
+          </li>
+          <li class="pl_10 pr_10"><a href="#">ALL-ACCESS</a></li>
+          <li class="pl_10 pr_10"><a href="#">HELP CENTER</a></li>
+          <li class="pl_10 pr_10"><a href="#">CONTACT US</a></li>
+          <li class="pl_10 pr_10"><a href="#">PRIVACY</a></li>
+          <li class="pl_10 pr_10"><a href="#">TERMS</a></li>
+          <li class="pl_10 pr_10"><a href="#">CAREERS</a></li>
+        </ul>
+        <% if (device.isDesktop) { %>
+        <div class="t_cen f_12 m_f_o4">Copyright © 2018 Vidyamath</div>
+        <% } %>
+      </div>
+      <div class="d_flex m_f_o1 mb_20_m">
+        <div
+          class="search d_flex f_ai_c f_jc_c mr_10 w_34 h_34 b_r50 cur_p bc_c_black bc_h_primary c_white">
+          <i class="icon-facebook f_16"></i>
         </div>
+        <div
+          class="login_register d_flex f_ai_c f_jc_c w_34 h_34 b_r50 cur_p bc_c_black bc_h_primary c_white">
+          <i class="icon-linkedin f_16"></i>
+        </div>
+      </div>
     </div>
+    <% if (device.isMobile) { %>
+    <div class="t_cen f_12 m_f_o4">Copyright © 2018 Vidyamath</div>
+    <% } %>
+  </div>
 </div>

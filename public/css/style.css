@@ -8336,6 +8336,10 @@
   flex-direction: row;
 }
 
+.f_wr_w {
+  flex-wrap: wrap;
+}
+
 .fl_1 {
   flex: 1;
 }
@@ -9238,6 +9242,15 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+  .m_f_wr_w {
+    flex-wrap: wrap;
+  }
+  .m_f_d_c {
+    flex-direction: column;
+  }
+  .m_f_d_r {
+    flex-direction: row;
+  }
   .m_fw90 {
     flex: 0 0 90%;
     padding: 0 10px;
@@ -9247,12 +9260,25 @@
   }
   .m_m16 {
     margin: 0 -16px;
+    padding: 0 8px;
   }
   .m_f_g0 {
     gap: 0px;
   }
   .m_w_100 {
     width: 100%;
+  }
+  .m_f_o3 {
+    order: 3; /* Move 1st to last */
+  }
+  .m_f_o2 {
+    order: 2;
+  }
+  .m_f_o1 {
+    order: 1; /* Move 3rd to first */
+  }
+  .m_f_o4 {
+    order: 4; /* Move 3rd to first */
   }
 }
 @font-face {
