@@ -20,25 +20,25 @@ const home ={
                 label: 'Button Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/buttonsnippet.png',
-                    url:''
+                    url:'/button'
             },
             {
                 label: 'Box-shadow Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/boxsnippet.png',
-                    url:''
+                    url:'/shadow'
             },
             {
                 label: 'Forms Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/formsnippet.png',
-                    url:''
+                    url:'/forms_snippets'
             },
             {
                 label: 'Hamburger Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/hamburgersnippet.png',
-                    url:''
+                    url:'/hamburger'
             }
         ]
     },
