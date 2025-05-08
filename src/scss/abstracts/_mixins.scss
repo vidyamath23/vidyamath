@@ -14,6 +14,13 @@
       font-size: #{$i}px;
     }
   }
+  @media only screen and (max-width: 900px) {
+    @for $i from 2 through 100 {
+      .m_f_#{$i} {
+        font-size: #{$i}px;
+      }
+    }
+  }
 }
 
 @include font-size-range();
