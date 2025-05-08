@@ -105,7 +105,7 @@
         margin-top: #{$i}px;
       }
       .mb_#{$i}_m {
-        margin-bottom: #{$i}px;
+        margin-bottom: #{$i}px !important;
       }
     }
   }
