@@ -9476,6 +9476,9 @@ main {
   min-height: 400px;
 }
 
+.header {
+  position: relative;
+}
 .header .h_140 {
   height: 110px;
 }
@@ -9492,6 +9495,80 @@ main {
   .header .h_140 .logo {
     margin-top: 30px;
   }
+}
+.header .header_side_nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: hidden;
+  transition-delay: 0.3s;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+.header .header_side_nav .nav_overlay {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+}
+.header .header_side_nav .side_nav {
+  position: absolute;
+  width: 400px;
+  height: 100vh;
+  left: -400px;
+  top: 0;
+  background: #fff;
+  overflow: hidden scroll;
+  z-index: 3;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+.header .header_side_nav .side_nav ul li {
+  padding: 20px;
+}
+.header .header_side_nav .side_nav ul li .heading {
+  font-size: 16px;
+  color: #646464;
+  margin-bottom: 20px;
+}
+.header .header_side_nav .side_nav ul li ul li {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+.header .header_side_nav .side_nav ul li ul li:hover {
+  background: #f0f0f0;
+  border-radius: 12px;
+}
+.header .header_side_nav .side_nav ul .badge {
+  background: #d3d3d3;
+  color: #000;
+  border-radius: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 23px;
+  padding: 0 9px;
+}
+.header .header_side_nav .side_nav ul .arrow_left {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  transform: rotate(135deg);
+  margin-right: 12px;
+}
+.header .show_sideNav {
+  visibility: visible;
+}
+.header .show_sideNav .side_nav {
+  left: 0px;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
 }
 
 /*# sourceMappingURL=style.css.map */
