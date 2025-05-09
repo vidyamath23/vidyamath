@@ -9518,7 +9518,7 @@ main {
 }
 .header .header_side_nav .side_nav {
   position: absolute;
-  width: 400px;
+  width: 90%;
   height: 100vh;
   left: -400px;
   top: 0;
@@ -9527,6 +9527,11 @@ main {
   z-index: 3;
   transition: all 0.25s;
   -webkit-transition: all 0.25s;
+}
+@media screen and (min-width: 992px) {
+  .header .header_side_nav .side_nav {
+    width: 400px;
+  }
 }
 .header .header_side_nav .side_nav ul li {
   padding: 20px;

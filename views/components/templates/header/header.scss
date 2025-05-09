@@ -34,7 +34,7 @@
     }
     .side_nav {
       position: absolute;
-      width: 400px;
+      width: 90%;
       height: 100vh;
       left: -400px;
       top: 0;
@@ -43,6 +43,9 @@
       z-index: 3;
       transition: all 0.25s;
       -webkit-transition: all 0.25s;
+      @media screen and (min-width: 992px) {
+        width: 400px;
+      }
       ul {
         li {
           padding: 20px;
