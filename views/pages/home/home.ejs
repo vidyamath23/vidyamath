@@ -24,9 +24,9 @@
     </div>
   </div>
   <!----Second Section-->
-  <div class="bc_f8f8f8 pt_30 mb_90">
+  <div class="bc_f8f8f8 pt_30 mb_90 mb_40_m">
     <div class="container">
-      <h2 class="f_28 m_f_24 mb_40 t_cen c_333 mt_20">
+      <h2 class="f_28 m_f_24 mb_40 t_cen c_333 mt_20 mt_2_m">
         <%- pageData?.snippet_banner?.heading %>
       </h2>
       <div class="d_flex f_jc_c m_f_xscroll m_m16 m_f_jc_st f_g20 m_f_g0">
@@ -43,13 +43,13 @@
   <!---Third Section-->
   <div class="bc_white">
     <div class="container">
-      <h2 class="f_28 m_f_24 mb_50 t_cen c_333 mt_20">
+      <h2 class="f_28 m_f_24 mb_50  t_cen c_333 mt_20 mt_2_m">
         <%- pageData?.css_banner?.heading %>
       </h2>
       <div class="third d_flex f_jc_c m_f_xscroll m_m16 m_f_jc_st f_g20 m_f_g0">
         <% for (item of pageData?.css_banner?.css_card) { %>
           <div class="pl_8 pr_8">
-        <div class="css_card b_r16 mb_90">
+        <div class="css_card b_r16 mb_90 mb_40_m">
           <%- include('../../components/home2card2/home2card2', {data:item}) %>
         </div>
       </div>
@@ -58,7 +58,7 @@
     </div>
   </div>
   <!---second-last-section-->
-  <div class="bc_f8f8f8 pt_30 pb_20_m mb_90">
+  <div class="bc_f8f8f8 pt_30 pb_20_m mb_90 mb_40_m">
     <div class="container">
       <% if (device.isDesktop) { %>
       <h2 class="f_28 m_f_24 mb_40 t_cen c_333 mt_20">
@@ -75,7 +75,7 @@
     </div>
   </div>
   <!-- Last Section -->
-  <div class="mb_50">
+  <div class="mb_50 mb_12_m">
     <div class="container t_cen">
       <h2 class="mb_12 f_36 m_f_24"><%- pageData?.bottom_section?.heading %></h2>
       <p class="mb_36 f_18 m_f_16 c_646"><%- pageData?.bottom_section?.paragraph %></p>

@@ -1,6 +1,15 @@
-.header{
-    .logo{
-        margin-left: -80px;
-        margin-top: 30px;
+.header {
+    .h_140 {
+        height: 110px;
+        @media (min-width: 900px) {
+            height: 140px;
+        }
+        .logo {
+            margin-left: -80px;
+            margin-top: 12px;
+            @media (min-width: 900px) {
+                margin-top: 30px;
+            }
+        }
     }
 }

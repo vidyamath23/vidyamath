@@ -96,13 +96,13 @@
     // Mobile-specific margin classes
     @media (max-width: 768px) {
       .mr_#{$i}_m {
-        margin-right: #{$i}px;
+        margin-right: #{$i}px !important;
       }
       .ml_#{$i}_m {
-        margin-left: #{$i}px;
+        margin-left: #{$i}px !important;
       }
       .mt_#{$i}_m {
-        margin-top: #{$i}px;
+        margin-top: #{$i}px !important;
       }
       .mb_#{$i}_m {
         margin-bottom: #{$i}px !important;
