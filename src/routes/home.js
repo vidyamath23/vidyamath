@@ -31,10 +31,10 @@ const home ={
                     className:'c_ffd54f'
             },
             {
-                label: 'Forms Snippets',
+                label: 'Checkbox Snippets',
                     subtitle: 'View Snippets',
                     icon:'/images/formsnippet.png',
-                    url:'/forms_snippets',
+                    url:'/checkbox_snippets',
                     className:'c_fa7c42'
             },
             {
