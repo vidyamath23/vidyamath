@@ -849,7 +849,7 @@
 }
 .gradient{
   background: linear-gradient(to right, #d946ef , #6366f1);
-  -webkit-background-clip: text;
+  
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
@@ -906,5 +906,24 @@
   }
   .m_t_left {
     text-align: left;
+  }
+  .m_r_f26{
+    font-size: 26px;
+  }
+
+  .shadow_res{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .shadow_wid{
+    width: 150px;
+    height: 150px;
+  
+  }
+  .shadow-p{
+    padding: 0;
   }
 }
