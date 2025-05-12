@@ -8672,6 +8672,10 @@
 }
 
 /* margin */
+.m_10_auto {
+  margin: 0 auto 10px;
+}
+
 .m_0 {
   margin: 0;
 }
@@ -9152,10 +9156,6 @@
 
 .s_box_in {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-.m_10_auto {
-  margin: 0 auto 10px;
 }
 
 .bc_f1f1f1 {

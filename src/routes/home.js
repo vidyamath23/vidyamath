@@ -50,34 +50,34 @@ const home ={
         heading: 'Top Used Snippets',
         snippet_card:[
             {
-                label: 'Button Snippets',
+                label: 'Inner Shadow',
                 icon:'/images/drop.png',
-                url:''
+                url:'/inner_shadow'
             },
             {
-                label: 'Drop Shadow',
+                label: 'Signup Button',
                 icon:'/images/drop.png',
-                url:''
+                url:'/signup_button'
             },
             {
                 label: 'Layer Blur Shadow',
                 icon:'/images/3rd.png',
-                url:''
+                url:'/layerblur_shadow'
             },
             {
-                label: 'Layout Component',
-                icon:'/images/shape.png',
-                url:''
+                label: 'Menu Hamburger',
+                icon:'/images/hamburgersnippet.png',
+                url:'/menu_hamburger'
             },
             {
-                label: 'Design Element ',
+                label: 'Cute Checkbox ',
                 icon:'/images/design.png',
-                url:''
+                url:'/cute_checkbox'
             },
             {
-                label: 'Effect',
+                label: 'Butterfly Effect',
                 icon:'/images/design.png',
-                url:''
+                url:'/butterfly_effect'
             }
         ]
     }, 
