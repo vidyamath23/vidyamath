@@ -849,9 +849,14 @@
 }
 .gradient{
   background: linear-gradient(to right, #d946ef , #6366f1);
-  
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+}
+.gradinet_2{
+  background: linear-gradient(to right, #4b4b8f #ff6f61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 // Mobile CSS
