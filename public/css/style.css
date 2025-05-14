@@ -9308,6 +9308,10 @@
   background: linear-gradient(to right, #c97a38, #4ca89c);
 }
 
+.grad-8 {
+  background: linear-gradient(to right, #2124dd, #4ca89c);
+}
+
 .web {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
