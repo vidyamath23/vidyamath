@@ -1,4 +1,5 @@
-const home = {
+module.exports = (req) => {
+    return {
         title: 'vidyamath.com',
         hero_section:{
             heading:'Thousand of career oriented courses available here',
@@ -215,6 +216,5 @@ const home = {
     
 
     
-};
-
-module.exports = home;
+}
+}

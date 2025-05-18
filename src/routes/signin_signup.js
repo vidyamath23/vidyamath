@@ -1,8 +1,9 @@
 
 
 
-const signin_signup = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = signin_signup;
+  }
+}
   

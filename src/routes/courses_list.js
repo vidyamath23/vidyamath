@@ -1,5 +1,6 @@
-const courses_list = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = courses_list;
+  }
+}
   

@@ -1,0 +1,19 @@
+.shadow_cards {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .view_code {
+    display: none;
+    font-size: 12px;
+  }
+  &:hover {
+    .view_code {
+      display: block;
+    }
+  }
+}
+
+// Shadow card detail page 
+ 

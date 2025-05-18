@@ -1,5 +1,6 @@
 
-const home ={
+module.exports = (req) => {
+    return {
     title : 'vidyamath.com',
     hero_banner: {
         heading: 'A curated collection of reuseabel UI/code/design snippets',
@@ -148,6 +149,5 @@ const home ={
     cta : 'Join now',
     cta_link : "#"
    }
-
-};
-module.exports = home;
+    }
+}

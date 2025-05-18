@@ -1,5 +1,6 @@
-const forms_snippets = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = forms_snippets;
+  }
+}
   

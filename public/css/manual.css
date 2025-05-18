@@ -1,0 +1,16 @@
+.shadow_cards {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shadow_cards .view_code {
+  display: none;
+  font-size: 12px;
+}
+.shadow_cards:hover .view_code {
+  display: block;
+}
+
+/*# sourceMappingURL=manual.css.map */

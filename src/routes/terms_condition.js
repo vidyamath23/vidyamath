@@ -1,5 +1,6 @@
-const terms_condition = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = terms_condition;
+  }
+}
   
