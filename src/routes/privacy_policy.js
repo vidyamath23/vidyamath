@@ -1,5 +1,6 @@
-const privacy_policy = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = privacy_policy;
+  }
+}
   

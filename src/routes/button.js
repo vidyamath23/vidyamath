@@ -1,5 +1,6 @@
 
-const button ={
+module.exports = (req) => {
+    return {
     title : 'vidyamath.com',
-};
-module.exports = button;
+}
+}

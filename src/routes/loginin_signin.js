@@ -1,5 +1,6 @@
-const loginin_signin = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = loginin_signin;
+  }
+}
   

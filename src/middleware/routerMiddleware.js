@@ -20,19 +20,23 @@ const pageRouter = (app) => {
 
   folders.forEach((item) => {
     let template = `pages/${item}/${item}`;
-    let pageData = require(`${viewDataPath}/${item}.js`);
+    let detaiTemplate = `pages/${item}/${item}-detail`;
+    let getPageData = require(`${viewDataPath}/${item}.js`); // function
 
     if (item === "home") {
       app.get("/", (req, res) => {
+        let pageData = getPageData(req);
         pageData.deviceTye = res.locals.device;
-        console.log(pageData);
         res.render(template, { pageData });
       });
     }
-    app.get(`/${item}`, (req, res) => {
+    app.get(`/${item}/:slug?`, (req, res) => {
+      const isDetail = !!req.params.slug;
+      let pageData = getPageData(req);   
       pageData.deviceTye = res.locals.device;
-      console.log(pageData);
-      res.render(template, { pageData });
+      pageData.isDetail = isDetail;
+       
+      res.render(isDetail?detaiTemplate:template, { pageData });
     });
   });
 };

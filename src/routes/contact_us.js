@@ -1,5 +1,6 @@
-const contact_us = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = contact_us;
+  }
+}
   

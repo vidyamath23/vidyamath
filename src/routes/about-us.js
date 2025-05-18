@@ -1,5 +1,6 @@
-const about = {
+module.exports = (req) => {
+  return {
     title: 'Home',
-  };
-  module.exports = about;
+  }
+}
   

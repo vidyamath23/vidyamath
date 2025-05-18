@@ -9247,7 +9247,7 @@
   box-shadow: 13.6px 13.6px 0px 0px #000000, 27.21px 27.21px 0px 0px rgba(0, 0, 0, 0.6980392157), 40.81px 40.81px 0px 0px rgba(0, 0, 0, 0.4), 54.42px 54.42px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
-.bc_FFFFFF99 {
+.c {
   background: rgba(255, 255, 255, 0.6);
 }
 
@@ -9574,6 +9574,21 @@ main {
   left: 0px;
   transition: all 0.25s;
   -webkit-transition: all 0.25s;
+}
+
+.shadow_cards {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shadow_cards .view_code {
+  display: none;
+  font-size: 12px;
+}
+.shadow_cards:hover .view_code {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
